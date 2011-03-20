@@ -15,12 +15,16 @@
 
 @synthesize tabBarController=_tabBarController;
 
+// TODO: proc si vytvari toho _membera a nereleasuji pres accessor?
+@synthesize neighborsServer;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    // Add the tab bar controller's current view as a subview of the window
+    self.neighborsServer = [NeighborsServer new];
+    
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -67,6 +71,7 @@
 {
     [_window release];
     [_tabBarController release];
+    [neighborsServer release];
     [super dealloc];
 }
 

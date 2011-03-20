@@ -7,13 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NeighborsServer.h"
 
 @interface NeighborsAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
 
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+
+@property (nonatomic, retain) NeighborsServer *neighborsServer;
+
 
 @end
