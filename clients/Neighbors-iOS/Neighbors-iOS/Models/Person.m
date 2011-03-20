@@ -19,10 +19,12 @@
     [super dealloc];
 }
 
+// TODO: convenience metoda pro testovani
 +(id)personWithNickname:(NSString *)nickname
 {
     Person *person = [Person new];
     person.nickname = nickname;
+    [person autorelease];
     return person;
 }
 

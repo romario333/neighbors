@@ -10,6 +10,8 @@
 		621B76A31336423000FF96B6 /* NeighborsServerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 621B76A01336422900FF96B6 /* NeighborsServerTest.m */; };
 		624A64811336512B00F61C85 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 624A647F1336512A00F61C85 /* MapViewController.m */; };
 		624A64841336530B00F61C85 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 624A64831336530B00F61C85 /* MapView.xib */; };
+		624A64911336636400F61C85 /* MemoryManagementTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 624A648F1336622900F61C85 /* MemoryManagementTest.m */; };
+		629401231336699D00DBA6ED /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 629401221336699C00DBA6ED /* TestObject.m */; };
 		62AE7E731336144F0026272B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE7E721336144F0026272B /* UIKit.framework */; };
 		62AE7E751336144F0026272B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE7E741336144F0026272B /* Foundation.framework */; };
 		62AE7E771336144F0026272B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE7E761336144F0026272B /* CoreGraphics.framework */; };
@@ -46,6 +48,10 @@
 		624A647E1336512A00F61C85 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		624A647F1336512A00F61C85 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		624A64831336530B00F61C85 /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		624A648E1336622900F61C85 /* MemoryManagementTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemoryManagementTest.h; path = Learning/MemoryManagementTest.h; sourceTree = "<group>"; };
+		624A648F1336622900F61C85 /* MemoryManagementTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MemoryManagementTest.m; path = Learning/MemoryManagementTest.m; sourceTree = "<group>"; };
+		629401211336699C00DBA6ED /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestObject.h; path = Learning/TestObject.h; sourceTree = "<group>"; };
+		629401221336699C00DBA6ED /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestObject.m; path = Learning/TestObject.m; sourceTree = "<group>"; };
 		62AE7E6E1336144F0026272B /* Neighbors-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neighbors-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AE7E721336144F0026272B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62AE7E741336144F0026272B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,6 +105,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		624A648D1336620500F61C85 /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				624A648E1336622900F61C85 /* MemoryManagementTest.h */,
+				624A648F1336622900F61C85 /* MemoryManagementTest.m */,
+				629401211336699C00DBA6ED /* TestObject.h */,
+				629401221336699C00DBA6ED /* TestObject.m */,
+			);
+			name = Learning;
+			sourceTree = "<group>";
+		};
 		62AE7E631336144E0026272B = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +164,7 @@
 		62AE7E9E1336144F0026272B /* Neighbors-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				624A648D1336620500F61C85 /* Learning */,
 				62C498D7133635F8004C6EAF /* Models */,
 				62AE7E9F1336144F0026272B /* Supporting Files */,
 			);
@@ -354,6 +372,7 @@
 				62C498D5133634D3004C6EAF /* Person.m in Sources */,
 				62C498DE13363A39004C6EAF /* NeighborsServer.m in Sources */,
 				624A64811336512B00F61C85 /* MapViewController.m in Sources */,
+				629401231336699D00DBA6ED /* TestObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +382,7 @@
 			files = (
 				62C498DB13363824004C6EAF /* PersonTest.m in Sources */,
 				621B76A31336423000FF96B6 /* NeighborsServerTest.m in Sources */,
+				624A64911336636400F61C85 /* MemoryManagementTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,6 +26,7 @@
     
     NeighborsAppDelegate *appDelegate = (NeighborsAppDelegate*)[[UIApplication sharedApplication] delegate];
     people = [appDelegate.neighborsServer getPeopleWithLocation:nil];
+    [people retain];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
