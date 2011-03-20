@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		621B76A31336423000FF96B6 /* NeighborsServerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 621B76A01336422900FF96B6 /* NeighborsServerTest.m */; };
 		62AE7E731336144F0026272B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE7E721336144F0026272B /* UIKit.framework */; };
 		62AE7E751336144F0026272B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE7E741336144F0026272B /* Foundation.framework */; };
 		62AE7E771336144F0026272B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE7E761336144F0026272B /* CoreGraphics.framework */; };
@@ -14,8 +15,6 @@
 		62AE7E9A1336144F0026272B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE7E741336144F0026272B /* Foundation.framework */; };
 		62AE7E9B1336144F0026272B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE7E761336144F0026272B /* CoreGraphics.framework */; };
 		62AE7EA31336144F0026272B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62AE7EA11336144F0026272B /* InfoPlist.strings */; };
-		62AE7EA61336144F0026272B /* Neighbors_iOSTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 62AE7EA51336144F0026272B /* Neighbors_iOSTests.h */; };
-		62AE7EA81336144F0026272B /* Neighbors_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE7EA71336144F0026272B /* Neighbors_iOSTests.m */; };
 		62AE7EC61336150E0026272B /* NeighborsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE7EB31336150E0026272B /* NeighborsAppDelegate.m */; };
 		62AE7EC71336150E0026272B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE7EB61336150E0026272B /* FirstViewController.m */; };
 		62AE7EC81336150E0026272B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE7EB81336150E0026272B /* SecondViewController.m */; };
@@ -24,6 +23,9 @@
 		62AE7ECC1336150E0026272B /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62AE7EC31336150E0026272B /* FirstView.xib */; };
 		62AE7ECD1336150E0026272B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62AE7EC41336150E0026272B /* MainWindow.xib */; };
 		62AE7ECE1336150E0026272B /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62AE7EC51336150E0026272B /* SecondView.xib */; };
+		62C498D5133634D3004C6EAF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C498D4133634D3004C6EAF /* Person.m */; };
+		62C498DB13363824004C6EAF /* PersonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C498D913363628004C6EAF /* PersonTest.m */; };
+		62C498DE13363A39004C6EAF /* NeighborsServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C498DD13363A39004C6EAF /* NeighborsServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		621B769F1336422900FF96B6 /* NeighborsServerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeighborsServerTest.h; sourceTree = "<group>"; };
+		621B76A01336422900FF96B6 /* NeighborsServerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeighborsServerTest.m; sourceTree = "<group>"; };
 		62AE7E6E1336144F0026272B /* Neighbors-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neighbors-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AE7E721336144F0026272B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62AE7E741336144F0026272B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,8 +49,6 @@
 		62AE7EA01336144F0026272B /* Neighbors-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Neighbors-iOSTests-Info.plist"; sourceTree = "<group>"; };
 		62AE7EA21336144F0026272B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62AE7EA41336144F0026272B /* Neighbors-iOSTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Neighbors-iOSTests-Prefix.pch"; sourceTree = "<group>"; };
-		62AE7EA51336144F0026272B /* Neighbors_iOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Neighbors_iOSTests.h; sourceTree = "<group>"; };
-		62AE7EA71336144F0026272B /* Neighbors_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Neighbors_iOSTests.m; sourceTree = "<group>"; };
 		62AE7EB21336150E0026272B /* NeighborsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeighborsAppDelegate.h; sourceTree = "<group>"; };
 		62AE7EB31336150E0026272B /* NeighborsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeighborsAppDelegate.m; sourceTree = "<group>"; };
 		62AE7EB51336150E0026272B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -60,6 +62,12 @@
 		62AE7EC31336150E0026272B /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
 		62AE7EC41336150E0026272B /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		62AE7EC51336150E0026272B /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		62C498D3133634D3004C6EAF /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		62C498D4133634D3004C6EAF /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		62C498D813363628004C6EAF /* PersonTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonTest.h; path = Models/PersonTest.h; sourceTree = "<group>"; };
+		62C498D913363628004C6EAF /* PersonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonTest.m; path = Models/PersonTest.m; sourceTree = "<group>"; };
+		62C498DC13363A39004C6EAF /* NeighborsServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeighborsServer.h; sourceTree = "<group>"; };
+		62C498DD13363A39004C6EAF /* NeighborsServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeighborsServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +142,7 @@
 		62AE7E9E1336144F0026272B /* Neighbors-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				62AE7EA51336144F0026272B /* Neighbors_iOSTests.h */,
-				62AE7EA71336144F0026272B /* Neighbors_iOSTests.m */,
+				62C498D7133635F8004C6EAF /* Models */,
 				62AE7E9F1336144F0026272B /* Supporting Files */,
 			);
 			path = "Neighbors-iOSTests";
@@ -181,6 +188,10 @@
 		62AE7EBB1336150E0026272B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				62C498D3133634D3004C6EAF /* Person.h */,
+				62C498D4133634D3004C6EAF /* Person.m */,
+				62C498DC13363A39004C6EAF /* NeighborsServer.h */,
+				62C498DD13363A39004C6EAF /* NeighborsServer.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,6 +220,17 @@
 				62AE7EC51336150E0026272B /* SecondView.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		62C498D7133635F8004C6EAF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				62C498D813363628004C6EAF /* PersonTest.h */,
+				62C498D913363628004C6EAF /* PersonTest.m */,
+				621B769F1336422900FF96B6 /* NeighborsServerTest.h */,
+				621B76A01336422900FF96B6 /* NeighborsServerTest.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +312,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				62AE7EA31336144F0026272B /* InfoPlist.strings in Resources */,
-				62AE7EA61336144F0026272B /* Neighbors_iOSTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +342,8 @@
 				62AE7EC71336150E0026272B /* FirstViewController.m in Sources */,
 				62AE7EC81336150E0026272B /* SecondViewController.m in Sources */,
 				62AE7EC91336150E0026272B /* main.m in Sources */,
+				62C498D5133634D3004C6EAF /* Person.m in Sources */,
+				62C498DE13363A39004C6EAF /* NeighborsServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +351,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62AE7EA81336144F0026272B /* Neighbors_iOSTests.m in Sources */,
+				62C498DB13363824004C6EAF /* PersonTest.m in Sources */,
+				621B76A31336423000FF96B6 /* NeighborsServerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
